@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1702018943378,2181,https://accounts.simplilearn.com/user/login?redirect_url=https%3A%2F%2Flms.simplilearn.com%2F,200,OK,Thread Group 1-1,text,false,Tidy Parser errors: 4 (allowed 10) Tidy Parser warnings: 228 (allowed 10),67286,644,1,1,https://accounts.simplilearn.com/user/login?redirect_url=https%3A%2F%2Flms.simplilearn.com%2F,1912,0,866
+1702018955821,3424,https://accounts.simplilearn.com/user/login,200,OK,Thread Group 1-1,text,false,Tidy Parser errors: 4 (allowed 10) Tidy Parser warnings: 131 (allowed 10),55186,4153,1,1,https://accounts.simplilearn.com/user/manage-auth-redirect,2152,0,0
+1702018955821,2152,https://accounts.simplilearn.com/user/login-0,302,Moved Temporarily,Thread Group 1-1,text,true,,2532,894,1,1,https://accounts.simplilearn.com/user/login,2152,0,0
+1702018957974,404,https://accounts.simplilearn.com/user/login-1,302,Moved Temporarily,Thread Group 1-1,text,true,,579,1626,1,1,https://accounts.simplilearn.com/user/multi-account,404,0,0
+1702018958378,867,https://accounts.simplilearn.com/user/login-2,200,OK,Thread Group 1-1,text,true,,52075,1633,1,1,https://accounts.simplilearn.com/user/manage-auth-redirect,599,0,0
+1702018959258,354,https://www.simplilearn.com/,200,OK,Thread Group 1-1,text,true,,313076,1500,1,1,https://www.simplilearn.com/,209,0,155
+1702018975629,120,https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning,200,OK,Thread Group 1-1,text,true,,371041,1563,1,1,https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning,58,0,0
+1702018983123,2160,https://lms.simplilearn.com/,200,OK,Thread Group 1-1,text,true,,108095,1505,1,1,https://lms.simplilearn.com/,1632,0,848
+1702018991192,697,https://lms.simplilearn.com/,200,OK,Thread Group 1-1,text,true,,108020,1523,1,1,https://lms.simplilearn.com/,437,0,0
+1702019004150,1589,https://lms.simplilearn.com/session/logout,200,OK,Thread Group 1-1,text,true,,315803,2239,1,1,https://www.simplilearn.com,1515,0,0
+1702019004150,1515,https://lms.simplilearn.com/session/logout-0,302,Moved Temporarily,Thread Group 1-1,text,true,,2719,1559,1,1,https://lms.simplilearn.com/session/logout,1515,0,0
+1702019005666,73,https://lms.simplilearn.com/session/logout-1,200,OK,Thread Group 1-1,text,true,,313084,680,1,1,https://www.simplilearn.com,53,0,0
