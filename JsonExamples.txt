@@ -1,0 +1,100 @@
+https://jsonpathfinder.com/
+
+
+{  
+    "employee": {  
+        "name":       "sonoo",   
+        "salary":      56000,   
+        "married":    true  
+    }  
+} 
+
+**************
+
+{
+	"employee": {
+		"name": "sonoo",
+		"salary": 56000,
+		"married": true,
+		"dayofweek":
+		["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+	}
+}
+
+***************
+
+{
+	"employee": {
+		"name": "sonoo",
+		"salary": 56000,
+		"married": true,
+		"Mail":
+		[  
+    {"email1":"Ram@gmail.com"},  
+    {"email2":"bob32@gmail.com"}  
+]  
+	}
+}
+
+*****************
+
+{"menu": {  
+  "id": "file",  
+  "value": "File",  
+  "popup": {  
+    "menuitem": [  
+      {"value": "New", "onclick": "CreateDoc()"},  
+      {"value": "Open", "onclick": "OpenDoc()"},  
+      {"value": "Save", "onclick": "SaveDoc()"}  
+    ]  
+  }  
+}}  
+
+*******************
+
+{"widget": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}
+
+
+*************
+
+{
+   "book":[
+      {
+         "id":"444",
+         "language":"C",
+         "edition":"First",
+         "author":"Dennis Ritchie "
+      },
+      {
+         "id":"555",
+         "language":"C++",
+         "edition":"second",
+         "author":" Bjarne Stroustrup "
+      }
+   ]
+} 
